@@ -26,7 +26,7 @@ const dataSchema = new mongoose.Schema({
   email: String
 });
 
-const Data = mongoose.model('Data', dataSchema);
+const Data = mongoose.model('store', dataSchema);
 
 // Define routes
 app.post('/api/data', async (req, res) => {
